@@ -1,0 +1,192 @@
+{
+  "Darken Image": {
+    "value": "#0000004d",
+    "type": "color"
+  },
+  "identifier": {
+    "value": "sm",
+    "type": "text",
+    "description": "This value is used to drive changes in Figma. It allows to show which variable mode is active."
+  },
+  "padding": {
+    "value": 24,
+    "type": "number"
+  },
+  "spacer-100": {
+    "value": 24,
+    "type": "number"
+  },
+  "spacer-050": {
+    "value": 8,
+    "type": "number"
+  },
+  "spacer-200": {
+    "value": 40,
+    "type": "number"
+  },
+  "Margin-100": {
+    "value": 32,
+    "type": "number"
+  },
+  "Margin-200": {
+    "value": 56,
+    "type": "number"
+  },
+  "Whitespace-100": {
+    "value": 56,
+    "type": "number"
+  },
+  "Whitespace-200": {
+    "value": 72,
+    "type": "number"
+  },
+  "Whitespace-300": {
+    "value": 128,
+    "type": "number"
+  },
+  "Form": {
+    "formSpace-050": {
+      "value": 16,
+      "type": "number"
+    },
+    "formSpace-025": {
+      "value": 8,
+      "type": "number"
+    },
+    "formSpace-100": {
+      "value": 24,
+      "type": "number"
+    }
+  },
+  "Font Sizes": {
+    "Copy": {
+      "value": "{Typography.Copy.md.fontSize}",
+      "type": "number"
+    },
+    "Heading 1": {
+      "value": "{Typography.Headings.1.sm.fontSize}",
+      "type": "number"
+    },
+    "Heading 2": {
+      "value": "{Typography.Headings.2.sm.fontSize}",
+      "type": "number"
+    },
+    "Heading 3": {
+      "value": "{Typography.Headings.3.sm.fontSize}",
+      "type": "number"
+    },
+    "Heading 4": {
+      "value": "{Typography.Headings.4.sm.fontSize}",
+      "type": "number"
+    },
+    "Heading 5": {
+      "value": "{Typography.Headings.5.sm.fontSize}",
+      "type": "number"
+    },
+    "Heading 6": {
+      "value": "{Typography.Headings.6.sm.fontSize}",
+      "type": "number"
+    },
+    "Abstract": {
+      "value": "{Typography.Abstract.sm.fontSize}",
+      "type": "number"
+    }
+  },
+  "Line Heights": {
+    "Copy": {
+      "value": "{Typography.Copy.md.lineHeight}",
+      "type": "number"
+    },
+    "Heading 1": {
+      "value": "{Typography.Headings.1.sm.lineHeight}",
+      "type": "number"
+    },
+    "Heading 2": {
+      "value": "{Typography.Headings.2.sm.lineHeight}",
+      "type": "number"
+    },
+    "Heading 3": {
+      "value": "{Typography.Headings.3.sm.lineHeight}",
+      "type": "number"
+    },
+    "Heading 4": {
+      "value": "{Typography.Headings.4.sm.lineHeight}",
+      "type": "number"
+    },
+    "Heading 5": {
+      "value": "{Typography.Headings.5.sm.lineHeight}",
+      "type": "number"
+    },
+    "Heading 6": {
+      "value": "{Typography.Headings.6.sm.lineHeight}",
+      "type": "number"
+    },
+    "Abstract": {
+      "value": "{Typography.Abstract.sm.lineHeight}",
+      "type": "number"
+    }
+  },
+  "Grid": {
+    "viewportWidth": {
+      "value": 360,
+      "type": "number"
+    },
+    "contentWidth": {
+      "value": 312,
+      "type": "number"
+    },
+    "columnNumber": {
+      "value": 12,
+      "type": "number"
+    },
+    "gridGutter": {
+      "value": 16,
+      "type": "number"
+    },
+    "gridMargin": {
+      "value": 24,
+      "type": "number"
+    },
+    "sectionPadding": {
+      "value": 56,
+      "type": "number"
+    },
+    "spacer-050": {
+      "value": 8,
+      "type": "number"
+    },
+    "spacer-100": {
+      "value": 24,
+      "type": "number"
+    },
+    "spacer-200": {
+      "value": 48,
+      "type": "number"
+    }
+  },
+  "sectionPadding": {
+    "value": 56,
+    "type": "number"
+  },
+  "containerBreakpoints": {
+    "value": 336,
+    "type": "number"
+  },
+  "focusBorder-100": {
+    "value": 3,
+    "type": "number"
+  },
+  "focusBorder-050": {
+    "value": 2,
+    "type": "number"
+  },
+  "Teaser": {
+    "Card Teaser": {
+      "Image Width": {
+        "value": 360,
+        "type": "number",
+        "description": "For small viewports the width should be set to fill"
+      }
+    }
+  }
+}

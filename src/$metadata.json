@@ -1,0 +1,14 @@
+{
+  "tokenSetOrder": [
+    "Base Variables/E.ON",
+    "Base Variables/Avacon",
+    "UI Colors/Light",
+    "UI Colors/Dark",
+    "Sizes + Spacing/sm",
+    "Sizes + Spacing/md",
+    "Sizes + Spacing/lg",
+    "Sizes + Spacing/xl",
+    "Sizes + Spacing/xxl",
+    "Typography/Type"
+  ]
+}

@@ -1,0 +1,830 @@
+{
+  "Background": {
+    "Interactive": {
+      "Primary": {
+        "Default": {
+          "value": "{Primary.500}",
+          "type": "color"
+        },
+        "Hover": {
+          "value": "{Primary.700}",
+          "type": "color"
+        },
+        "Selected": {
+          "value": "{Primary.500}",
+          "type": "color"
+        },
+        "Selected Hover": {
+          "value": "{Primary.500}",
+          "type": "color"
+        }
+      },
+      "Functional": {
+        "Default": {
+          "value": "{Grey.600}",
+          "type": "color"
+        },
+        "Hover": {
+          "value": "{Grey.800}",
+          "type": "color"
+        },
+        "Selected": {
+          "value": "{Grey.600}",
+          "type": "color"
+        },
+        "Selected Hover": {
+          "value": "{Grey.800}",
+          "type": "color"
+        }
+      },
+      "Disabled": {
+        "Default": {
+          "value": "{Grey.500}",
+          "type": "color"
+        },
+        "Hover": {
+          "value": "{Grey.700}",
+          "type": "color"
+        },
+        "Selected": {
+          "value": "{Grey.500}",
+          "type": "color"
+        },
+        "Selected Hover": {
+          "value": "{Grey.500}",
+          "type": "color"
+        }
+      },
+      "Tertiary": {
+        "Default": {
+          "value": "{Secondary.700}",
+          "type": "color"
+        },
+        "Hover": {
+          "value": "{Secondary.800}",
+          "type": "color"
+        },
+        "Selected": {
+          "value": "{Secondary.800}",
+          "type": "color"
+        },
+        "Selected Hover": {
+          "value": "{Secondary.900}",
+          "type": "color"
+        }
+      },
+      "Discreet Primary": {
+        "Default": {
+          "value": "{Background.Page Background.Primary}",
+          "type": "color"
+        },
+        "Hover": {
+          "value": "{Grey.100}",
+          "type": "color"
+        },
+        "Selected": {
+          "value": "{Background.Page Background.Primary}",
+          "type": "color"
+        },
+        "Selected Hover": {
+          "value": "{Grey.200}",
+          "type": "color"
+        }
+      },
+      "Primary Inverted": {
+        "Default": {
+          "value": "{Base.White}",
+          "type": "color"
+        },
+        "Hover": {
+          "value": "#ffffffcc",
+          "type": "color"
+        },
+        "Selected": {
+          "value": "#ffffff80",
+          "type": "color"
+        },
+        "Selected Hover": {
+          "value": "#ffffffcc",
+          "type": "color"
+        }
+      },
+      "Discreet Secondary": {
+        "Default": {
+          "value": "{Background.Page Background.Secondary}",
+          "type": "color"
+        },
+        "Hover": {
+          "value": "{Grey.100}",
+          "type": "color"
+        },
+        "Selected": {
+          "value": "{Background.Page Background.Secondary}",
+          "type": "color"
+        },
+        "Selected Hover": {
+          "value": "{Grey.300}",
+          "type": "color"
+        }
+      },
+      "Discreet Inverted": {
+        "Default": {
+          "value": "{Background.Page Background.Primary Inverted}",
+          "type": "color"
+        },
+        "Hover": {
+          "value": "{Background.Page Background.Primary Inverted}",
+          "type": "color"
+        },
+        "Selected": {
+          "value": "{Background.Page Background.Primary Inverted}",
+          "type": "color"
+        },
+        "Selected Hover": {
+          "value": "{Primary.600}",
+          "type": "color"
+        }
+      }
+    },
+    "Decorative": {
+      "Primary": {
+        "value": "{Background.Page Background.Secondary}",
+        "type": "color"
+      },
+      "Secondary": {
+        "value": "{Background.Page Background.Primary}",
+        "type": "color"
+      },
+      "Inverted": {
+        "Primary": {
+          "value": "{Primary.500}",
+          "type": "color"
+        },
+        "Secondary": {
+          "value": "{Primary.700}",
+          "type": "color"
+        }
+      },
+      "Tertiary": {
+        "value": "{Primary.500}",
+        "type": "color"
+      }
+    },
+    "Form": {
+      "Default": {
+        "Default": {
+          "value": "{Base.White}",
+          "type": "color"
+        },
+        "Hover": {
+          "value": "{Background.Form.Default.Default}",
+          "type": "color"
+        },
+        "Active": {
+          "value": "{System Feedback.Default.Highlight}",
+          "type": "color"
+        },
+        "Error": {
+          "value": "{Background.Form.Default.Default}",
+          "type": "color"
+        },
+        "Error Hover": {
+          "value": "{Background.Form.Default.Default}",
+          "type": "color"
+        },
+        "Active Hover": {
+          "value": "{System Feedback.Default.Highlight Dark}",
+          "type": "color"
+        }
+      },
+      "Inverted": {
+        "Default": {
+          "value": "{Background.Page Background.Primary Inverted}",
+          "type": "color"
+        },
+        "Hover": {
+          "value": "{Background.Page Background.Secondary Inverted}",
+          "type": "color"
+        },
+        "Active": {
+          "value": "{Background.Page Background.Primary}",
+          "type": "color"
+        },
+        "Error": {
+          "value": "{Background.Page Background.Primary}",
+          "type": "color"
+        },
+        "Error Hover": {
+          "value": "{Background.Page Background.Primary}",
+          "type": "color"
+        },
+        "Active Hover": {
+          "value": "{Background.Page Background.Primary}",
+          "type": "color"
+        }
+      }
+    },
+    "Page Background": {
+      "Primary": {
+        "value": "{Base.White}",
+        "type": "color"
+      },
+      "Secondary": {
+        "value": "{Grey.100}",
+        "type": "color"
+      },
+      "Primary Inverted": {
+        "value": "{Primary.500}",
+        "type": "color"
+      }
+    },
+    "Tabs": {
+      "Primary": {
+        "Hover": {
+          "value": "#26262614",
+          "type": "color"
+        },
+        "Selected Hover": {
+          "value": "#26262614",
+          "type": "color"
+        }
+      },
+      "Inverted": {
+        "Hover": {
+          "value": "{Primary.600}",
+          "type": "color"
+        },
+        "Selected Hover": {
+          "value": "{Primary.600}",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "Border": {
+    "Interactive": {
+      "Primary": {
+        "Default": {
+          "value": "{Primary.500}",
+          "type": "color"
+        },
+        "Hover": {
+          "value": "{Primary.700}",
+          "type": "color"
+        },
+        "Selected": {
+          "value": "{Primary.500}",
+          "type": "color"
+        },
+        "Selected Hover": {
+          "value": "{Primary.500}",
+          "type": "color"
+        }
+      },
+      "Secondary": {
+        "Default": {
+          "value": "{Grey.800}",
+          "type": "color"
+        },
+        "Hover": {
+          "value": "{Secondary.700}",
+          "type": "color"
+        },
+        "Selected": {
+          "value": "{Secondary.500}",
+          "type": "color"
+        },
+        "Selected Hover": {
+          "value": "{Secondary.500}",
+          "type": "color"
+        }
+      },
+      "Disabled": {
+        "Default": {
+          "value": "{Grey.500}",
+          "type": "color"
+        },
+        "Hover": {
+          "value": "{Grey.700}",
+          "type": "color"
+        },
+        "Selected": {
+          "value": "{Grey.500}",
+          "type": "color"
+        },
+        "Selected Hover": {
+          "value": "{Grey.500}",
+          "type": "color"
+        }
+      },
+      "Tertiary": {
+        "Default": {
+          "value": "{Secondary.700}",
+          "type": "color"
+        },
+        "Hover": {
+          "value": "{Secondary.800}",
+          "type": "color"
+        },
+        "Selected": {
+          "value": "{Secondary.800}",
+          "type": "color"
+        },
+        "Selected Hover": {
+          "value": "{Secondary.900}",
+          "type": "color"
+        }
+      },
+      "Discreet Primary": {
+        "Default": {
+          "value": "{Background.Page Background.Primary}",
+          "type": "color"
+        },
+        "Hover": {
+          "value": "{Grey.500}",
+          "type": "color"
+        },
+        "Selected": {
+          "value": "{Background.Page Background.Primary}",
+          "type": "color"
+        },
+        "Selected Hover": {
+          "value": "{Grey.300}",
+          "type": "color"
+        }
+      },
+      "Primary Inverted": {
+        "Default": {
+          "value": "{Background.Page Background.Primary}",
+          "type": "color"
+        },
+        "Hover": {
+          "value": "#ffffffcc",
+          "type": "color"
+        },
+        "Selected": {
+          "value": "#ffffff80",
+          "type": "color"
+        },
+        "Selected Hover": {
+          "value": "#ffffffcc",
+          "type": "color"
+        }
+      },
+      "Discreet Secondary": {
+        "Default": {
+          "value": "{Background.Page Background.Secondary}",
+          "type": "color"
+        },
+        "Hover": {
+          "value": "{Grey.600}",
+          "type": "color"
+        },
+        "Selected": {
+          "value": "{Background.Page Background.Secondary}",
+          "type": "color"
+        },
+        "Selected Hover": {
+          "value": "{Grey.400}",
+          "type": "color"
+        }
+      },
+      "Discreet Inverted": {
+        "Default": {
+          "value": "{Background.Page Background.Primary Inverted}",
+          "type": "color"
+        },
+        "Hover": {
+          "value": "{Primary.200}",
+          "type": "color"
+        },
+        "Selected": {
+          "value": "{Background.Page Background.Primary Inverted}",
+          "type": "color"
+        },
+        "Selected Hover": {
+          "value": "{Grey.400}",
+          "type": "color"
+        }
+      }
+    },
+    "Highlight": {
+      "Discreet": {
+        "Default": {
+          "value": "{Grey.500}",
+          "type": "color"
+        },
+        "Hover": {
+          "value": "{Grey.600}",
+          "type": "color"
+        },
+        "Selected": {
+          "value": "{Grey.800}",
+          "type": "color"
+        },
+        "Selected Hover": {
+          "value": "{Border.Highlight.Discreet.Selected}",
+          "type": "color"
+        }
+      },
+      "Primary": {
+        "Default": {
+          "value": "{Grey.500}",
+          "type": "color"
+        },
+        "Hover": {
+          "value": "{Grey.600}",
+          "type": "color"
+        },
+        "Selected": {
+          "value": "{Primary.500}",
+          "type": "color"
+        },
+        "Selected Hover": {
+          "value": "{Primary.800}",
+          "type": "color"
+        }
+      }
+    },
+    "Decorative": {
+      "Primary": {
+        "1": {
+          "value": "#ffffff",
+          "type": "color"
+        },
+        "2": {
+          "value": "#ffffff",
+          "type": "color"
+        },
+        "value": "{Grey.100}",
+        "type": "color"
+      },
+      "Secondary": {
+        "1": {
+          "value": "#ffffff",
+          "type": "color"
+        },
+        "2": {
+          "value": "#ffffff",
+          "type": "color"
+        },
+        "value": "{Grey.300}",
+        "type": "color"
+      },
+      "Tertiary": {
+        "1": {
+          "value": "#ffffff",
+          "type": "color"
+        },
+        "2": {
+          "value": "#ffffff",
+          "type": "color"
+        },
+        "value": "{Grey.300}",
+        "type": "color"
+      },
+      "Neutral": {
+        "1": {
+          "value": "#ffffff",
+          "type": "color"
+        },
+        "2": {
+          "value": "#ffffff",
+          "type": "color"
+        }
+      }
+    },
+    "Form": {
+      "Default": {
+        "Default": {
+          "value": "{Grey.800}",
+          "type": "color"
+        },
+        "Hover": {
+          "value": "{Grey.800}",
+          "type": "color"
+        },
+        "Active": {
+          "value": "{System Feedback.Default.Highlight}",
+          "type": "color",
+          "description": "Test"
+        },
+        "Error": {
+          "value": "{System Feedback.Default.Error Dark}",
+          "type": "color"
+        },
+        "Error Hover": {
+          "value": "{System Feedback.Default.Error Dark}",
+          "type": "color"
+        },
+        "Active Hover": {
+          "value": "{System Feedback.Default.Highlight Dark}",
+          "type": "color",
+          "description": "test"
+        }
+      },
+      "Inverted": {
+        "Default": {
+          "value": "{Base.White}",
+          "type": "color"
+        },
+        "Hover": {
+          "value": "{Border.Form.Inverted.Default}",
+          "type": "color"
+        },
+        "Active": {
+          "value": "{Border.Form.Inverted.Default}",
+          "type": "color"
+        },
+        "Error": {
+          "value": "{System Feedback.Inverted.Error}",
+          "type": "color"
+        },
+        "Error Hover": {
+          "value": "{System Feedback.Inverted.Error Dark}",
+          "type": "color"
+        },
+        "Active Hover": {
+          "value": "{Border.Form.Inverted.Default}",
+          "type": "color"
+        }
+      }
+    },
+    "Tabs": {
+      "Primary": {
+        "Default": {
+          "value": "{Grey.600}",
+          "type": "color"
+        },
+        "Hover": {
+          "value": "{Grey.600}",
+          "type": "color"
+        },
+        "Selected": {
+          "value": "{Grey.900}",
+          "type": "color"
+        },
+        "Focus": {
+          "value": "{System Feedback.Default.Highlight}",
+          "type": "color"
+        }
+      },
+      "Inverted": {
+        "Default": {
+          "value": "{Primary.300}",
+          "type": "color"
+        },
+        "Hover": {
+          "value": "{Primary.300}",
+          "type": "color"
+        },
+        "Selected": {
+          "value": "{Base.White}",
+          "type": "color"
+        },
+        "Focus": {
+          "value": "{System Feedback.Default.Focus Inverted}",
+          "type": "color"
+        }
+      }
+    },
+    "Divider": {
+      "Default": {
+        "value": "#26262633",
+        "type": "color"
+      },
+      "Inverted": {
+        "value": "#ffffff66",
+        "type": "color"
+      }
+    }
+  },
+  "Text": {
+    "Primary": {
+      "value": "{Grey.900}",
+      "type": "color",
+      "description": "Primary Font Color"
+    },
+    "Secondary": {
+      "value": "{Grey.700}",
+      "type": "color",
+      "description": "Secondary Font Color\nOnly allowed on white or off white backgrounds due to low contrast"
+    },
+    "Primary Inverted": {
+      "value": "{Base.White}",
+      "type": "color",
+      "description": "Primary Font Color Inverse\nThis color is to be used on colored backgrounds."
+    },
+    "Secondary Inverted": {
+      "value": "#ffffffcc",
+      "type": "color",
+      "description": "Secondary Font Color Inverse\nThis color is to be used on colored backgrounds."
+    },
+    "Interactive": {
+      "value": "{Background.Interactive.Primary.Default}",
+      "type": "color"
+    },
+    "Interactive Hover": {
+      "value": "{Background.Interactive.Primary.Hover}",
+      "type": "color"
+    }
+  },
+  "System Feedback": {
+    "Default": {
+      "Error": {
+        "value": "{srcSystemFeedback.Error}",
+        "type": "color"
+      },
+      "Error Dark": {
+        "value": "{srcSystemFeedback.Error Dark}",
+        "type": "color"
+      },
+      "Warning": {
+        "value": "{srcSystemFeedback.Warning}",
+        "type": "color"
+      },
+      "Warning Dark": {
+        "value": "{srcSystemFeedback.Warning Dark}",
+        "type": "color"
+      },
+      "Success": {
+        "value": "{srcSystemFeedback.Success}",
+        "type": "color"
+      },
+      "Success Dark": {
+        "value": "{srcSystemFeedback.Success Dark}",
+        "type": "color"
+      },
+      "Focus Inverted": {
+        "value": "{srcSystemFeedback.Focus Inverted}",
+        "type": "color"
+      },
+      "Error Light": {
+        "value": "{srcSystemFeedback.Error Light}",
+        "type": "color"
+      },
+      "Warning Light": {
+        "value": "{srcSystemFeedback.Warning Light}",
+        "type": "color"
+      },
+      "Success Light": {
+        "value": "{srcSystemFeedback.Success Light}",
+        "type": "color"
+      },
+      "Highlight Dark": {
+        "value": "{srcSystemFeedback.Highlight Dark}",
+        "type": "color"
+      },
+      "Focus": {
+        "value": "{srcSystemFeedback.Focus}",
+        "type": "color"
+      },
+      "Highlight Light": {
+        "value": "{srcSystemFeedback.Highlight Light}",
+        "type": "color"
+      },
+      "Highlight": {
+        "value": "{srcSystemFeedback.Highlight}",
+        "type": "color"
+      }
+    },
+    "Inverted": {
+      "Error": {
+        "value": "{System Feedback.Default.Error}",
+        "type": "color"
+      },
+      "Error Dark": {
+        "value": "{System Feedback.Default.Error Dark}",
+        "type": "color"
+      },
+      "Warning": {
+        "value": "#ffc940",
+        "type": "color"
+      },
+      "Warning Hover": {
+        "value": "{System Feedback.Default.Warning Light}",
+        "type": "color"
+      },
+      "Success": {
+        "value": "{System Feedback.Default.Success}",
+        "type": "color"
+      },
+      "Success Dark": {
+        "value": "{System Feedback.Default.Success Dark}",
+        "type": "color"
+      },
+      "Active": {
+        "value": "{System Feedback.Default.Highlight Light}",
+        "type": "color"
+      },
+      "Focus": {
+        "value": "{System Feedback.Default.Focus}",
+        "type": "color"
+      },
+      "Focus Inverted": {
+        "value": "{Base.White}",
+        "type": "color"
+      },
+      "Active-Hover": {
+        "value": "{Secondary.700}",
+        "type": "color"
+      },
+      "Error Light": {
+        "value": "{System Feedback.Default.Error Light}",
+        "type": "color"
+      },
+      "Warning Dark": {
+        "value": "{System Feedback.Default.Warning Dark}",
+        "type": "color"
+      },
+      "Success Light": {
+        "value": "{System Feedback.Default.Success Light}",
+        "type": "color"
+      },
+      "Highlight": {
+        "value": "{System Feedback.Default.Highlight}",
+        "type": "color"
+      },
+      "Highlight Dark": {
+        "value": "{Secondary.700}",
+        "type": "color"
+      },
+      "Highlight Light": {
+        "value": "{System Feedback.Default.Highlight Light}",
+        "type": "color"
+      },
+      "Warning Light": {
+        "value": "{System Feedback.Default.Warning Light}",
+        "type": "color"
+      }
+    }
+  },
+  "Icon": {
+    "Primary": {
+      "value": "{Text.Primary}",
+      "type": "color",
+      "description": "Primary Font Color"
+    },
+    "Secondary": {
+      "value": "{Text.Secondary}",
+      "type": "color",
+      "description": "Secondary Font Color\nOnly allowed on white or off white backgrounds due to low contrast"
+    },
+    "Primary Inverted": {
+      "value": "{Text.Primary Inverted}",
+      "type": "color",
+      "description": "Primary Font Color Inverse\nThis color is to be used on colored backgrounds."
+    },
+    "Secondary Inverted": {
+      "value": "{Text.Secondary Inverted}",
+      "type": "color",
+      "description": "Secondary Font Color Inverse\nThis color is to be used on colored backgrounds."
+    },
+    "Interactive": {
+      "value": "{Text.Interactive}",
+      "type": "color"
+    },
+    "Interactive Hover": {
+      "value": "{Text.Interactive Hover}",
+      "type": "color"
+    },
+    "Form Active": {
+      "value": "{Background.Form.Default.Active}",
+      "type": "color"
+    },
+    "Form Active Hover": {
+      "value": "{Background.Form.Default.Active Hover}",
+      "type": "color"
+    }
+  },
+  "Gradient": {
+    "Main": {
+      "Stops": {
+        "1": {
+          "Color": {
+            "value": "{Base Gradient.Main.Stops.1.Color}",
+            "type": "color"
+          }
+        },
+        "2": {
+          "Color": {
+            "value": "{Base Gradient.Main.Stops.2.Color}",
+            "type": "color"
+          }
+        },
+        "3": {
+          "Color": {
+            "value": "{Base Gradient.Main.Stops.3.Color}",
+            "type": "color"
+          }
+        },
+        "4": {
+          "Color": {
+            "value": "{Base Gradient.Main.Stops.4.Color}",
+            "type": "color"
+          }
+        }
+      }
+    }
+  }
+}
